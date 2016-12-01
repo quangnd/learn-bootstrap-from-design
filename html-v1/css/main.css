@@ -1,0 +1,76 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.lotteryJumpotron {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.lotteryJumpotron p{
+  margin: 0;
+}
+
+.lotteryJumpotron a{
+  margin-top: 10px;
+}
+
+.betweenComponent h3{
+    padding-bottom: 10px;
+}
+
+.adv2 {
+    width: 100%;
+    margin-top: 10px;
+}
+.adv2 p{
+    text-align: justify;
+    padding-left: 10px;
+}
+
+.aboutInfo textarea{
+    margin-top: 10px;
+    width: 80%;
+}
+
+aboutInfo h4{
+    margin-bottom: 0;
+}
+.about-column {
+    min-width: 140px;
+    display: inline;
+}
+
+.about-column li{
+    height: 28px;
+    margin-left:0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+/* FOOTER */
+.company {
+   vertical-align: middle;
+    display: inline-block;
+    color: #fff;
+}
+
+footer {
+    position: absolute;
+    background: #333333;
+    width: 100%;
+}
+
+.social-icons a {
+    font-size: 1.4375rem;
+    display: block;
+    width: 36px;
+    border-radius: 50%;
+    background: #fff;
+    text-align: center;
+}
+
+
