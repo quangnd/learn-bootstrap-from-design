@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <title>Lottery new design</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="main.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -72,6 +71,8 @@
 
         </div>
     </div>
+
+     <!-- RESULT  SECTION -->
     <div class="resultSection">
         <div class="container-fluid">
             <div class="row">
@@ -101,11 +102,6 @@
                                 <div class="num2">
                                     <span class="badgeNumber">12</span>
                                 </div>
-
-                                <!--<div class="badgeNumber">12</div>
-                        <div class="badgeNumber">12</div>
-                        <div class="badgeNumber">12</div>
-                        <div class="badgeNumber">12</div>-->
                             </div>
                         </div>
                         <div class="col-md-3 resultDate">
@@ -175,7 +171,7 @@
                         <div class="col-md-3 resultDate">
                             <span>12 Nov 2016</span>
                         </div>
-                    </div>                
+                    </div>
                 </div>
                 <div class="col-md-4 newsInfo">
                     <h3 class="text-uppercase">News and Info</h3>
@@ -235,6 +231,8 @@
             </div>
         </div>
     </div>
+    
+    <!-- 2nd Advertising SECTION -->
     <div class="adv2">
         <div class="container-fluid">
             <div class="row">
@@ -281,6 +279,7 @@
         </div>
     </div>
 
+    <!-- 3nd Advertising  SECTION -->
     <div class="container">
         <div class="row adv3">
             <div class="col-md-4">
@@ -330,9 +329,10 @@
         <hr>
     </div>
 
+    <!-- ABOUT SECTION -->
     <div class="container">
         <div class="row aboutInfo">
-            <div class="col-md-3 col-md-offset-1">
+            <div class="col-md-4">
                 <h4>ABOUT US</h4>
                 <ul class="about-column">
                     <li><a href="/how-to-buy-tickets">How to buy tickets?</a></li>
@@ -342,7 +342,7 @@
                 </ul>
 
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h4>QUICK LINKS</h4>
                 <ul class="about-column">
                     <li><a href="/faqs">FAQs</a></li>
@@ -352,11 +352,33 @@
                 </ul>
 
             </div>
-            <div class="col-md-5">
+            <div class="col-md-4">
                 <h4>YOUR FEEDBACK IS VALUEABLE TO US</h4>
                 <div id="contactForm">
-                    <form>
-                        <div class="form-inline fullWidth">
+                    <form class=" form-horizontal ">
+                        <div class="form-group">
+                            <div class="col-md-12">
+                                <div class="content row">
+                                    <div class="col-xs-6" style="padding-right: 5px;">
+                                        <input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name" />
+                                    </div>
+                                    <div class="col-xs-6" style="">
+                                        <input type="text" class="form-control" id="contactEmail" name="contactEmail" placeholder="Email" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group" style="margin-bottom: 15px">
+                            <div class="col-md-12">
+                                <textarea class="form-control" rows="3" placeholder="Comment..."></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-12 text-right">
+                                <button class="btn btn submitContactButton" type="submit">Search</button>
+                            </div>
+                        </div>
+                        <!--<div class="form-inline fullWidth">
                             <div class="form-group">
                                 <label class="sr-only" for="exampleInputPassword3">Name</label>
                                 <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Name">
@@ -371,7 +393,7 @@
                         </div>
                         <div class="text-right">
                             <button type="submit" class="btn submitContactButton">Submit</button>
-                        </div>
+                        </div>-->
                     </form>
                 </div>
             </div>
@@ -385,16 +407,20 @@
                     <div class="company">&copy; 2016 LotteryWorld.us, Inc.</div>
                 </div>
                 <div class="col-md-9 text-right">
-
-                    <a href="https://www.facebook.com/"><i id="social-fb" class="fa fa-facebook-square fa-2x social"></i></a>
-                    <a href="https://twitter.com/"><i id="social-tw" class="fa fa-twitter-square fa-2x social"></i></a>
-                    <a href="https://plus.google.com/"><i id="social-gp" class="fa fa-google-plus-square fa-2x social"></i></a>
-                    <a href="mailto:lotteryworld@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-2x social"></i></a>
+                    <div class="socials">
+                        <div id="facebook-icon" onclick="javascript:location.href='https://facebook.com'">
+                        </div>
+                        <div id="twitter-icon" onclick="javascript:location.href='https://twitter.com'">
+                        </div>
+                        <div id="google-icon" onclick="javascript:location.href='https://plus.google.com'">
+                        </div>
+                        <div id="youtube-icon" onclick="javascript:location.href='https://youtube.com'">
+                        </div>
+                    </div>
                 </div>
             </div>
-
         </div>
-        </footer>
+    </footer>
 </body>
 
 </html>
