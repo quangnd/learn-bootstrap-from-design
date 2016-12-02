@@ -9,7 +9,7 @@ Convert Photoshop design to Web page using:
 # TASKS ON HTML-v3
 
 - [x] Remove fix navigation.
-- [ ] Add carousel effect (slideshow) to jumpotron and news.
+- [x] Add carousel effect (slideshow) to jumpotron and news.
 - [ ] Consider use fixed or fluid design.
 - [ ] Consider responsive design.
 - [ ] Consider fluid layout but fixed content.

@@ -307,7 +307,11 @@ div.resultDate {
 .aboutTable {
     width:200px;
     margin-top:15px;
+    padding: 0;
+    border-spacing: 0;
+    border-width: 0;
 }
+
 .aboutTable td {
 line-height: 27px; 
 padding-top: 5px; 

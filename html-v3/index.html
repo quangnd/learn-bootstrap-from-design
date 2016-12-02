@@ -36,8 +36,8 @@
                     <a href="#">Login</a>
                     <a href="#">Sign up</a>
                     <div id="cart">
-                        <img src="images/cart.png" />
-                        <span> Cart 0 item(s) - $6.00
+                        <img src="images/cart.png" alt="cart"/>
+                        <span> Cart 0 item(s) - $6.00 </span>
                     </div>
                 </div>
                 <!--<ul class="nav navbar-nav navbar-right">
@@ -55,13 +55,13 @@
     <div id="bannerCarousel" class="carousel slide">
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
-            <div class="item bg1 active">
+            <div class="item active">
                 <img src="images/bg01.png" alt="bg1" class="center" >
             </div>
-            <div class="item bg2">
+            <div class="item">
                 <img src="images/bg02.png" alt="bg2" class="center">
             </div>
-            <div class="item bg3">
+            <div class="item">
                 <img src="images/bg03.png" alt="bg3" class="center">
               
             </div>
@@ -86,7 +86,7 @@
                             <p><a class="btn buyNowButton" href="#" role="button">Buy now</a></p>
                         </div>
                         <div class="col-md-4 col-lg-4">
-                            <img class="img-circle" src="images/mega.png" alt="Mega" width="<120>" height="120">
+                            <img class="img-circle" src="images/mega.png" alt="Mega" width="120" height="120">
                             <h3>$403 millions</h3>
                             <p class="timeText">Time left</p>
                             <p class="timeText timeBold">10 days 05:00:02</p>
@@ -107,7 +107,7 @@
                     <h3 class="text-uppercase">Lottery result board</h3>
                     <div class="row powerBallStyle">
                         <div class="col-md-2 lotteryCode">
-                            <img src="images/powerballmini.png">
+                            <img src="images/powerballmini.png" alt="powerballmini">
                         </div>
                         <div class="col-md-7">
                             <div class="badgeList">
@@ -138,7 +138,7 @@
 
                     <div class="row calloteryStyle">
                         <div class="col-md-2 lotteryCode">
-                            <img src="images/callotterymini.png">
+                            <img src="images/callotterymini.png" alt="callotterymini">
                         </div>
                         <div class="col-md-7">
                             <div class="badgeList">
@@ -168,7 +168,7 @@
                     </div> <!-- end calloteryStyle result row -->
                     <div class="row megaStyle">
                         <div class="col-md-2 lotteryCode">
-                            <img src="images/megamini.png">
+                            <img src="images/megamini.png" alt="megamini">
                         </div>
                         <div class="col-md-7">
                             <div class="badgeList">
@@ -258,9 +258,9 @@
                     <div id="checkTicketForm">
                         <form class="form-horizontal">
                             <div class="form-group row">
-                                <label for="inputEmail3" class="col-md-4 control-label">Lottery type</label>
+                                <label for="lotteryType" class="col-md-4 control-label">Lottery type</label>
                                 <div class="col-md-6 clearPaddingLeft">
-                                    <select class="form-control">
+                                    <select class="form-control" name="lotteryType">
                                                 <option>All type</option>
                                                 <option>2</option>
                                                 <option>3</option>
@@ -271,9 +271,9 @@
                             </div>
 
                             <div class="form-group row">
-                                <label for="inputPassword3" class="col-md-4 control-label">Draw results</label>
+                                <label for="drawName" class="col-md-4 control-label">Draw results</label>
                                 <div class="col-md-6 clearPaddingLeft">
-                                    <select class="form-control">
+                                    <select class="form-control" name="drawName">
                                             <option>Any draw</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -286,7 +286,7 @@
                             <div class="form-group row">
                                 <label for="yourTicketnumber" class="col-md-4 control-label">Your number</label>
                                 <div class="col-md-6 clearPaddingLeft">
-                                    <input type="text" class="form-control" id="yourTicketnumber" placeholder="">
+                                    <input type="text" class="form-control" id="yourTicketnumber" name="yourTicketnumber" placeholder="">
                                 </div>
                             </div>
                             <div class="form-group row">
@@ -306,7 +306,7 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-5">
-                        <img src="images/couple.png" class="advLeftImage" class="img-responsive" />
+                        <img src="images/couple.png" alt="couple" class="advLeftImage"/>
                     </div>
                     <div class="col-md-7">
                         <div class="advTextRight">
@@ -316,7 +316,7 @@
                                 for anyone from anywhere to buy lottery tickets from USA that never exists before.
                             </div>
                             <div class="clockSym">
-                                <img src="images/clock.png" />
+                                <img src="images/clock.png" alt="clock" />
                             </div>
                             <div class="clockText">
                                 <h3>Jackpot Alert</h3>
@@ -328,7 +328,7 @@
                                 </p>
                             </div>
                             <div class="dollarSym">
-                                <img src="images/dollar.png" />
+                                <img src="images/dollar.png" alt="dollar" />
                             </div>
                             <div class="dollarText">
                                 <h3>100% Yours</h3>
@@ -350,7 +350,7 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="images/image01.png">
+                            <img src="images/image01.png" alt="lottery-adv1">
                         </div>
                         <div class="col-md-8">
                             <div class="adv3Text">
@@ -365,7 +365,7 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="images/image02.png">
+                            <img src="images/image02.png" alt="lottery-adv2">
                         </div>
                         <div class="col-md-8">
                             <div class="adv3Text">
@@ -379,7 +379,7 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="images/image03.png">
+                            <img src="images/image03.png" alt="lottery-adv3">
                         </div>
                         <div class="col-md-8">
                             <div class="adv3Text">
@@ -399,12 +399,12 @@
             <div class="row aboutInfo">
                 <div class="col-md-4">
                     <h4>ABOUT US</h4>
-                    <table border="0" cellpadding="0" cellspacing="0" class="aboutTable">
+                    <table class="aboutTable">
                         <tr>
-                            <td><a href="/how-to-buy-tickets">How to buy tickets?</td>
-            		</tr>
-            		<tr>
-                        <td><a href="/the-biggest-win">The biggest win ever</a></td>
+                            <td><a href="/how-to-buy-tickets">How to buy tickets?</a></td>
+            		    </tr>
+            		    <tr>
+                           <td><a href="/the-biggest-win">The biggest win ever</a></td>
                         </tr>
                         <tr>
                             <td><a href="#">About US Lottery</a></td>
@@ -416,7 +416,7 @@
                 </div>
                 <div class="col-md-4">
                     <h4>QUICK LINKS</h4>
-                    <table border="0" cellpadding="0" cellspacing="0" class="aboutTable">
+                    <table class="aboutTable">
                         <tr>
                             <td><a href="/faqs">FAQs</a></td>
                         </tr>
@@ -424,10 +424,10 @@
                             <td><a href="#">Legal</a></td>
                         </tr>
                         <tr>
-                            <td><a href="#">Privacy Policy</td>	
-            		</tr>
-            		<tr>
-            			<td><a href="#">Teams &amp; Conditions</a></td>
+                            <td><a href="#">Privacy Policy</a></td>	
+            		    </tr>
+            		    <tr>
+            			    <td><a href="#">Teams &amp; Conditions</a></td>
                         </tr>
                     </table>
                 </div>
