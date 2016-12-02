@@ -177,6 +177,10 @@ div.resultDate {
     text-align: left;
 }
 
+.clearPaddingLeft {
+    padding-left:0;
+}
+
 .resultSection .checkNowButton{
     min-height: 32px;   
     font-weight: bold;
@@ -193,6 +197,8 @@ div.resultDate {
     color: #fff;
     background-color: #099bd9;
 }
+
+/*Adv 2*/
 
 .adv2 {
     background-color: #778a9e;
@@ -375,6 +381,28 @@ footer {
 #youtube-icon:hover{
      background: url('images/social-icons/youtube-symbol-hover.png');
 }
+
+/*override bootstrap*/
+.form-control:focus {
+  border-color: 1px solid #099bd9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control {
+    border-color: 1px solid #ccc;
+    border-radius: 0;
+}
+
+input[type="text"] {
+   font-size: 14px;
+   color: #333;
+}
+
+.btn {
+    border-radius: 0;
+}
+
 
 
 
