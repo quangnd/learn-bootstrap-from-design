@@ -1,13 +1,10 @@
 body {
-  padding-top: 50px;
-  padding-bottom: 20px;
   font-family: Helvetica, sans-serif;
   font-size: 14px;
 }
 
 /*NAVBAR customize*/
 .navbar {
-    min-height: 145px;
     border: none;
 }
 
@@ -21,12 +18,11 @@ body {
     background: url(images/logo.png) no-repeat;
     height: 80px;
     width: 254px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .navbar-nav {
-    margin-top: 13px;
     margin-left: 60px;
 }
 
@@ -254,6 +250,17 @@ div.resultDate {
 .about-column {
     min-width: 140px;
     display: inline;
+}
+
+.aboutTable {
+    width:200px;
+    margin-top:15px;
+}
+.aboutTable td {
+line-height: 27px; 
+padding-top: 5px; 
+padding-bottom: 5px;
+border-top: 1px solid #f0f0f0;
 }
 
 .about-column li{
