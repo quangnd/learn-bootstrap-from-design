@@ -1,5 +1,6 @@
 # Learn-bootstrap-from-design
 Convert Photoshop design to Web page using:
+
 1. HTML5
 2. CSS3
 3. Javascript (little)
@@ -7,12 +8,12 @@ Convert Photoshop design to Web page using:
 
 # TASKS ON HTML-v3
 
+- [x] Remove fix navigation.
 - [ ] Add carousel effect (slideshow) to jumpotron and news.
 - [ ] Consider use fixed or fluid design.
 - [ ] Consider responsive design.
-- [ ] No fix navigation.
 - [ ] Consider fluid layout but fixed content.
-- [ ] Your number de blank input, highlight color de ng ta biet do la jackpot number
+- [ ] Highlight color at jackpot number (enter your number textbox).
 
 # TASKS ON HTML-v2
 

@@ -6,6 +6,7 @@ body {
 /*NAVBAR customize*/
 .navbar {
     border: none;
+    margin-bottom: 0;
 }
 
 .navbar-default {
@@ -32,6 +33,7 @@ body {
     color: #000;
     padding-left: 10px;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
@@ -50,46 +52,68 @@ li.menuItem {
    margin:0 10px 0 0;   /*add distance between <li>*/
 } 
 
+#rightMenu {
+    float: right;
+    margin-top: 15px;
+    text-align: right;
+}
+#rightMenu a {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+
+#rightMenu a:hover,  #rightMenu a:active{
+     color: #ff9308;
+}
+
+#rightMenu span {
+    padding-left: 10px;
+}
+
 #cart {
-    position: absolute;
-    top: 55px;
-    right: 250px;
+    margin-top: 15px;
 }
 
 /*Jumpotron customize*/
-.jumbotron {
-    margin-top:100px;
-}
 .lotteryJumpotron {
   margin-bottom: 0;
   text-align: center;
-  background: url(images/bg01.png) no-repeat 50%;
-  background-color: #f0f0f0;
+  background: transparent;
 }
 
-.lotteryJumpotron p{
+img.center { 
+    display: block;
+    margin: 0 auto;
+}
+
+.lotteryJumpotron p { 
   margin: 0;
 }
 
-.lotteryJumpotron a{
+.lotteryJumpotron a {
   margin-top: 10px;
 }
 
-.lotteryJumpotron h3{
+.lotteryJumpotron h3 {
     font-size: 30px;
     font-weight: bold;
     color: #ff9308;
 }
 
-.lotteryJumpotron .timeText{
+.lotteryJumpotron .timeText {
     font-size: 18px;
 }
 
-.lotteryJumpotron .timeBold{
+.lotteryJumpotron .timeBold {
     font-weight: bold;
 }
 
-.lotteryJumpotron .buyNowButton{
+.lotteryJumpotron .buyNowButton {
     margin-top:20px;
     min-height: 42px;   
     font-weight: bold;
@@ -103,21 +127,45 @@ li.menuItem {
     background-color: #099bd9;
 }
 
-/*Result section*/
-.resultSection {
-    height:260px;
-}
-.resultSection h3{
-    padding-bottom: 10px;
-    color: #099bd9;
+.carosualContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 3;
+    text-align: center;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    -ms-transform: translate3d(-50%, -50%, 0);
+    -o-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
 
-div.powerBallStyle{
+.newsInfoCarosualContainer {
+       position: absolute;
+    top: 0%;
+}
+/*Result section*/
+.resultSection h3 {
+    padding-bottom: 20px;
+    color: #099bd9;
+    margin-top: 35px;
+}
+
+.resultSection h4 {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.resultSection p {
+    margin-top: 20px;
+}
+
+div.powerBallStyle {
     background-color: #ff9308;
     height: 40px;
     margin-right: 10px;
 }
-div.calloteryStyle{
+div.calloteryStyle {
     background-color: #474679;
     height: 40px;
     margin-right: 10px;
@@ -164,8 +212,8 @@ div.resultDate {
 }
 
 .newsInfo {
-    background-color: #f8f8f8; 
-    height: 260px; /*the same with resultSection's width*/
+    background-color: #f0f0f0; 
+    height: 305px; /*the same with background image news*/
 }
 
 .form-horizontal .control-label {
@@ -187,6 +235,8 @@ div.resultDate {
     padding: 6px 20px 6px 20px;
     background-color: #fff;
     margin-bottom: 5px;
+    margin-top: 10px;
+
 }
 
 .checkNowButton:hover, .checkNowButton:focus, .checkNowButton:active {
@@ -203,7 +253,6 @@ div.resultDate {
 .adv2 .advLeftImage {
     display: block;
     margin-left: -15px;
-    margin-top: -5px;
 }
 .adv2 .advTextRight{
     margin-top: 15px;
@@ -339,6 +388,13 @@ footer {
 .socials {
     margin-top: -5px;
     float:right;
+}
+
+#followUs {
+    float:left;
+    color: #fff;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
 #facebook-icon {
