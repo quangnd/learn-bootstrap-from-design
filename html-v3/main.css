@@ -127,6 +127,9 @@ img.center {
     background-color: #099bd9;
 }
 
+#bannerCarousel {
+    background-color: #f0f0f0;
+}
 .carosualContainer {
     position: absolute;
     top: 50%;
@@ -141,7 +144,7 @@ img.center {
 }
 
 .newsInfoCarosualContainer {
-       position: absolute;
+    position: absolute;
     top: 0%;
 }
 /*Result section*/
