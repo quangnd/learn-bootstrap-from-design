@@ -14,6 +14,7 @@ Convert Photoshop design to Web page using:
 - [ ] Consider responsive design.
 - [ ] Consider fluid layout but fixed content.
 - [ ] Highlight color at jackpot number (enter your number textbox).
+- [ ] Validate with [https://validator.w3.org](https://validator.w3.org)
 
 # TASKS ON HTML-v2
 
@@ -27,3 +28,7 @@ Convert Photoshop design to Web page using:
 1. **HTML v1** Basic bootstrap wireframe.
 2. **HTML v2** Basic website with images (no effect, no responsive).
 3. **HTML v3** Improve responsive and add effect (slideshow) (coming soon...).
+
+# Useful links
+
+1. [Making the Bootstrap 3 Carousel a single static image that the text slides over](http://stackoverflow.com/questions/24498983/making-the-bootstrap-3-carousel-a-single-static-image-that-the-text-slides-over)

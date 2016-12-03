@@ -147,6 +147,8 @@ img.center {
     position: absolute;
     top: 0%;
 }
+
+
 /*Result section*/
 .resultSection h3 {
     padding-bottom: 20px;
@@ -367,9 +369,6 @@ ol, ul {
 .adv3 {
     margin-top:60px;
     margin-bottom: 60px;
-}
-.adv3Text {
-    margin-left: 30px;
 }
 
 .adv3 h4{
