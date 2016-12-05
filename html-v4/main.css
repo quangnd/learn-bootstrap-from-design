@@ -9,6 +9,32 @@ body {
     margin: 0 auto;
 }
 
+/*override bootstrap attributes*/
+.form-control:focus {
+  border-color: 1px solid #099bd9;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.form-control {
+    border-color: 1px solid #ccc;
+    border-radius: 0;
+}
+
+input[type="text"] {
+   font-size: 14px;
+   color: #333;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.col-xs-1, .col-xs-1, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 /*NAVBAR customize*/
 .navbar .container {
     margin-left: 0;
@@ -77,8 +103,6 @@ li.menuItem {
     color: #333;
 }
 
-
-
 #rightMenu {
     float: right;
     margin-top: 18px;
@@ -133,10 +157,6 @@ li.menuItem {
     margin-right: 0;
 }
 
-.lotteryJumpotron .col-xs-4 {
-    padding-left: 0;
-    padding-right: 0;
-}
 .lotteryJumpotron .lotteryCol1{
     margin-left: 169px;
 }
@@ -224,7 +244,6 @@ img.center {
     top: 50%;
     left: 50%;
     z-index: 3;
-    /*text-align: center;*/
     -webkit-transform: translate3d(-50%, -50%, 0);
     -moz-transform: translate3d(-50%, -50%, 0);
     -ms-transform: translate3d(-50%, -50%, 0);
@@ -266,11 +285,6 @@ img.center {
 .resultSection  .row {
     margin-left: 0;
     margin-right: 0;
-}
-
-.resultSection .col-xs-4, .resultSection .col-xs-3, .resultSection .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .resultSection h3 {
@@ -496,10 +510,6 @@ div.resultDate {
     margin-right: 0;
 }
 
-.adv2 .col-xs-5, .adv2 .col-xs-7 {
-    padding-left: 0;
-    padding-right: 0;
-}
 .adv2 {
     background-color: #778a9e;
 }
@@ -543,8 +553,65 @@ div.resultDate {
     margin-bottom: 0;
 }
 
-/* About Information*/
+/*Adv3*/
+.adv3 {
+     background-color: #fff;
+}
 
+.adv3 .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    width: 1170px;
+}
+
+.adv3 .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.adv3 .col-xs-5 {
+    width: 140px !important;
+}
+.adv3Detail {
+    margin-top:65px;
+    margin-left:48px;
+    margin-right: 48px;
+}
+
+.adv3Detail .lottery-advCol2{
+    margin-left: 20px;
+}
+
+.adv3Detail .lottery-advCol3{
+    margin-left: 20px;
+}
+
+.adv3Detail .adv3Text {
+    padding-left: 20px;
+    line-height: 21px;
+}
+
+.adv3Text p {
+     margin-top: 19px;
+     width: 172px;
+}
+
+.adv3 hr {
+    margin-left:0 !important;
+        margin-top: 50px;
+    margin-bottom:0;
+}
+
+.adv3 .headerText {
+    color: #ff9308;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* About Information*/
 .aboutInfo .container {
     margin-left: 0;
     margin-right: 0;
@@ -556,11 +623,6 @@ div.resultDate {
 .aboutInfo .row {
     margin-left: 0;
     margin-right: 0;
-}
-
-.aboutInfo .col-xs-6, .aboutInfo .col-xs-3, .aboutInfo .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 .aboutDetail {
@@ -647,65 +709,6 @@ ol, ul {
     list-style: none;
 }
 
-/*Adv3*/
-.adv3 {
-     background-color: #fff;
-}
-
-.adv3 .container {
-    margin-left: 0;
-    margin-right: 0;
-    padding-right: 0;
-    padding-left: 0;
-    width: 1170px;
-}
-
-.adv3  .row {
-    margin-left: 0;
-    margin-right: 0;
-}
-
-.adv3 .col-xs-4, .adv3 .col-xs-5, .adv3 .col-xs-7, .adv3 .col-xs-3, .adv3 .col-xs-12 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.adv3 .col-xs-5 {
-    width: 140px;
-}
-.adv3Detail {
-    margin-top:65px;
-    margin-left:48px;
-    margin-right: 48px;
-}
-
-.adv3Detail .lottery-advCol2{
-    margin-left: 10px;
-}
-
-.adv3Detail .adv3Text {
-    padding-left: 20px;
-    line-height: 21px;
-}
-
-.adv3Text p {
-     margin-top: 19px;
-}
-
-.adv3 hr {
-    margin-left:0 !important;
-        margin-top: 50px;
-    margin-bottom:0;
-}
-
-.adv3 .headerText {
-    color: #ff9308;
-    font-size: 16px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-
 /* FOOTER */
 footer {
     position: absolute;
@@ -728,12 +731,6 @@ footer .row {
     margin-left: 0;
     margin-right: 0;
 }
-
-footer .col-xs-3, footer.col-xs-9 {
-    padding-left: 0;
-    padding-right: 0;
-}
-
 
 .company {
     vertical-align: middle;
@@ -802,28 +799,4 @@ footer .col-xs-3, footer.col-xs-9 {
 #youtube-icon:hover{
      background: url('images/social-icons/youtube-symbol-hover.png');
 }
-
-/*override bootstrap*/
-.form-control:focus {
-  border-color: 1px solid #099bd9;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-}
-
-.form-control {
-    border-color: 1px solid #ccc;
-    border-radius: 0;
-}
-
-input[type="text"] {
-   font-size: 14px;
-   color: #333;
-}
-
-.btn {
-    border-radius: 0;
-}
-
-
-
 
