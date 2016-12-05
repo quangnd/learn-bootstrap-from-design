@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 13px;
+  background-color: #f8f8f8;
 }
 
 .wrapper {
@@ -207,7 +208,7 @@ img.center {
     color: #099bd9;
     text-transform: uppercase;
     border: 3px solid #099bd9;
-    padding: 8px 30px 8px 30px;
+    padding: 9px 30px 8px 30px;
 }
 
 .buyNowButton:hover, .buyNowButton:focus, .buyNowButton:active, .buyNowButton.active, .open>.dropdown-toggle.buyNowButton {
@@ -244,6 +245,10 @@ img.center {
 .newsInfoCarosualContainer {
     position: absolute;
     top: 0%;
+}
+
+.newsInfoHeader {
+    margin-left: 0 !important;
 }
 
 
@@ -361,6 +366,11 @@ div.resultDate {
     font-style: italic;
 }
 
+.lotteryResultBoard {
+     height: 315px;
+     background-color: #fff;
+}
+
 .newsInfo {
     background-color: #f8f8f8; 
     height: 315px; /*the same with background image news*/
@@ -368,6 +378,9 @@ div.resultDate {
     padding-right: 19px !important; 
 }
 
+.checkInfo {
+    background-color: #fff;
+}
 #checkTicketForm {
     margin-left: 19px !important;
     margin-right: 19px !important; 
@@ -398,8 +411,26 @@ div.resultDate {
 }
 
 #checkTicketForm .form-control {
-    padding: 6px 7px;
+    padding: 6px 8px;
     font-size: 13px;
+}
+
+#yourTicketnumber6::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #ff9308;
+    opacity: 0.5;
+}
+#yourTicketnumber6:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    #ff9308;
+   opacity:  1;
+   opacity: 0.5;
+}
+#yourTicketnumber6::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    #ff9308;
+   opacity: 0.5;
+}
+#yourTicketnumber6:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #ff9308;
+   opacity: 0.5;
 }
 
 .clearPaddingLeft {
@@ -422,6 +453,7 @@ div.resultDate {
 
 .numberSquare {
     width: 35px;
+    color: #999;
 }
 
 .v-divider{
@@ -434,6 +466,7 @@ div.resultDate {
 #checkTicketForm input[type="text"] {
     display: inline;
     margin-left: 5px;
+    font-size: 13px;
 }
 
 #checkTicketForm input[type="text"].first {
@@ -531,13 +564,16 @@ div.resultDate {
 }
 
 .aboutDetail {
-    margin-left:48px;
-    margin-right:48px;
+    margin-left: 48px;
+    margin-right: 48px;
 }
 
 .aboutInfo {
-    margin-top: 40px;
+    padding-top: 40px;
+    background-color: #fff;
+    padding-bottom: 30px;
 }
+
 .aboutInfo textarea{
     margin-top: 10px;
 }
@@ -561,10 +597,10 @@ div.resultDate {
 }
 
 .aboutTable td {
-line-height: 27px; 
-padding-top: 5px; 
-padding-bottom: 5px;
-border-top: 1px solid #f0f0f0;
+    line-height: 27px; 
+    padding-top: 5px; 
+    padding-bottom: 5px;
+    border-top: 1px solid #f0f0f0;
 }
 
 .aboutTable a {
@@ -580,6 +616,10 @@ border-top: 1px solid #f0f0f0;
     margin-top: 20px;
 }
 
+#contactForm input[type="text"] {
+    height: 42px;
+}
+
 #contactForm .form-group {
     margin-bottom: 0;
     margin-right: 0;
@@ -587,12 +627,12 @@ border-top: 1px solid #f0f0f0;
 }
 
 .submitContactButton{
-    min-height: 32px;   
+    min-height: 42px;   
     font-weight: bold;
     font-size: 12px;
     color: #333333;
     text-transform: uppercase;
-    border: 2px solid #999999;
+    border: 3px solid #999999;
     padding: 6px 20px 6px 20px;
     background-color: #fff;
     margin-bottom: 5px;
@@ -608,6 +648,10 @@ ol, ul {
 }
 
 /*Adv3*/
+.adv3 {
+     background-color: #fff;
+}
+
 .adv3 .container {
     margin-left: 0;
     margin-right: 0;
@@ -668,7 +712,8 @@ footer {
     background: #333333;
     height: 40px;
     padding-top: 10px;
-    margin-top: 35px;
+    /*margin-top: 35px;*/
+    font-size: 12px;
 }
 
 footer .container {
