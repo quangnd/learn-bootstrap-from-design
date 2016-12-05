@@ -29,7 +29,7 @@ body {
 }
 
 .form-control {
-    border-color: 1px solid #ccc;
+    border: 1px solid #ccc;
     border-radius: 0;
 }
 
@@ -441,7 +441,7 @@ div.resultDate {
 }
 
 #checkTicketForm .form-control {
-    padding: 6px 8px;
+    padding: 9px;
     font-size: 13px;
 }
 
