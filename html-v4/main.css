@@ -102,21 +102,34 @@ li.menuItem {
     padding-bottom: 6px;
 }
 
-.navbar-default .navbar-nav > .active > a {
+/*.navbar-default .navbar-nav > .active > a {
     border-bottom: 5px solid #ff9308;
+    background-color: transparent;
+    color: #333;
+    box-shadow: none;
+}*/
+
+navbar-default .navbar-nav > a {
     background-color: transparent;
     color: #333;
     box-shadow: none;
 }
 
-.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-      border-bottom: 5px solid #999;
+.liActive {
+    border-bottom: 5px solid #ff9308;
+    background-color: transparent;
+    color: #333;
+    box-shadow: none;
 }
-
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+.liHover {
     border-bottom: 5px solid #999;
     color: #333;
 }
+
+/*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    border-bottom: 5px solid #999;
+    color: #333;
+}*/
 
 #rightMenu {
     float: right;
@@ -445,6 +458,13 @@ div.resultDate {
     font-size: 13px;
 }
 
+#checkTicketForm select {
+    font-size: 13px;
+    padding-right: 0 !important;
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 4px;
+}
 #yourTicketnumber6::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:    #ff9308;
     opacity: 0.5;
