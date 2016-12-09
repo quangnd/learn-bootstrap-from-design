@@ -27,7 +27,9 @@ Convert Photoshop design to Web page using:
 
 1. **HTML v1** Basic bootstrap wireframe.
 2. **HTML v2** Basic website with images (no effect, no responsive).
-3. **HTML v3** Improve responsive and add effect (slideshow) (coming soon...).
+3. **HTML v3** Improve responsive and add effect (slideshow).
+4. **HTML v4** Finish home page and disable responsive on mobile device.
+5. **HTML v5** Add more pages (buy-ticket.html)
 
 # Useful links
 

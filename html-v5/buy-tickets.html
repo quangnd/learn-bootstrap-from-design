@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Lottery new design</title>
+    <meta charset="UTF-8">
+    <!-- disable responsive -->
+    <!-- Based on guide at: http://getbootstrap.com/getting-started/#disable-responsive -->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">-->
+    <link href="main.css" rel="stylesheet">
+    <link href="buy-tickets.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div id="backgroundNav"></div>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand logo" href="#"></a>
+                </div>
+                <div id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li class="homeMenu menuItem"><a href="#">Home</a></li>
+                        <li class="menuItem"><a href="#">About Us</a></li>
+                        <li class="menuItem"><a href="#">How to buy</a></li>
+                        <li class="menuItem"><a href="#">Buy tickets</a></li>
+                        <li class="menuItem"><a href="#">The biggest win</a></li>
+                        <li class="menuItem"><a href="#">FAQs</a></li>
+                        <li class="menuItem lastMenuItem"><a href="#">Contact us</a></li>
+
+                    </ul>
+                    <div id="rightMenu">
+                        <a href="#">Login</a>
+                        <a href="#" class="signUpStyle">Sign up</a>
+                        <div id="cart">
+                            <!--<img src="images/cart.png" alt="cart"/>-->
+                        </div>
+                        <div id="cart-text"> Cart 0 item(s) - $6.00 </div>
+                    </div>
+                </div>
+                <!--/.navbar-collapse -->
+            </div>
+        </nav>
+
+        <!-- begin payment -->
+        <div id="chooseTicketBanner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="col1">
+                            <div class="powerBallImage">
+                                <img src="images/powerball-medium.png" alt="powerball" />
+                            </div>
+                            <div class="powerBallText">
+                                <span>Win Power Ball Jackpot</span>
+                                <span class="moneyText">$403,000,000</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="col2">
+                            <p>Time left</p>
+                            <span class="timeBold">10 days 05:59:36</span>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="col3">
+                            <h3>Buy Lottery Tickets</h3>
+                            <span>Add tickets and choose your lucky numbers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="threeStepPayments">
+            <div class="container">
+                <div class="row">
+                    <div id="breadcumbs">
+                        <ul class="breadcrumb">
+                            <li class="completed"><a href="javascript:void(0);">Choose Ticket</a></li>
+                            <li class="active"><a href="javascript:void(0);">Payment</a></li>
+                            <li class="completed"><a href="javascript:void(0);">Complete</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div id="mainChooseTicket">
+                            Add ticket to play <br/> Add ticket to play<br/> Add ticket to play<br/> Add ticket to play<br/>                            Add ticket to play<br/> Add ticket to play<br/> Add ticket to play<br/> Add ticket to play<br/>                            Add ticket to play<br/> Add ticket to play <br/> Add ticket to play<br/> Add ticket to play<br/>                            Add ticket to play <br/> Add ticket to play<br/>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div id="orderSummary">
+                            Order summary
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="row">
+                            <div class="col-xs-7">
+                                <div class="handGuide">
+                                    <div class="handPointUp">
+                                        <img src="images/ico/32x32/black/1069-point-up.png" alt="clock" />
+                                    </div>
+                                    <div class="handPointUpText">
+                                        <p>
+                                            Click on #symbols to pick your number or click on generate icon to get random list
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-5">
+                                <div class="guideButtons">
+                                    <button id="btnResetAll" value="Reset All">Reset All</button>
+                                    <button id="btnPayment" value="PAYMENT >">PAYMENT ></button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-6"></div>
+                </div>
+                <div class="row">
+                    <hr class="hrLine" />
+                </div>
+            </div>
+        </div>
+
+    <!-- 3nd Advertising  SECTION -->
+    <div id="knowAbout">
+        <div class="container">
+            <div class="row">
+                <div class="headlineIntro">
+                    Know about Powerball lottery
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="knowAboutCol1">
+                        <div class="imgCol">
+                            <img src="images/image04.png" alt="lottery-adv4">
+                        </div>
+
+                        <div class="textCol">
+                            <span class="headText">How do I play Powerball?</span>
+                            <p class="detailContent">Simply choose 5 numbers from 1 to 69, than pick 1 Power Ball number between 1 and 26. The Powerball
+                                number is drawn in a different machine. If you match all 6 numbers, you’re a jackpot winner,
+                                plus USA Powerball has 8 prize levels in addition to the jackpot.
+                            </p>
+                            <hr class="hrKnowAbout" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="knowAboutCol2">
+                        <div class="imgCol">
+                            <img src="images/image05.png" alt="lottery-adv5">
+                        </div>
+
+                        <div class="textCol">
+                            <span class="headText">What are the prizes for Powerball?</span>
+                            <p class="detailContent">The jackpot kicks off at a guaranteed US$40 Million and builds from there. Rollover jackpots
+                                of US$100 Million happen several times a year. The record USA Powerball rollover jackpot
+                                is US$1.58 Billion, making it the richest weekly lottery in the world.
+                            </p>         
+                                
+                              <hr class="hrKnowAboutRight" />
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-6">
+                    <div class="knowAboutCol1">
+                        <div class="imgCol">
+                            <img src="images/image06.png" alt="lottery-adv6">
+                        </div>
+
+                        <div class="textCol">
+                            <span class="headText">Fun Facts for Powerball?</span>
+                            <ul>
+                                <li>The second richest weekly lottery on the planet</li>
+                                <li>More rollover runs than any other lottery</li>
+                                <li>A guaranteed minimum jackpot of US$40 Million!</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="knowAboutCol2">
+                        <div class="imgCol">
+                            <img src="images/image07.png" alt="lottery-adv7">
+                        </div>
+
+                        <div class="textCol">
+                            <span class="headText">What happens if I win?</span>
+                            <p class="detailContent">We will automatically credit your winnings to your LottoKings account. You can then choose to
+                                withdraw them or use them to buy more tickets, the choice is yours. For very large wins,
+                                a member of our Winners Support Team will get in touch to discuss your win and how you would
+                                like it to be paid.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+
+    <!-- ABOUT SECTION -->
+    <div class="aboutInfo">
+        <div class="container">
+            <div class="row">
+                <div class="aboutDetail">
+                    <div class="col-xs-3">
+                        <h4>ABOUT US</h4>
+                        <table class="aboutTable">
+                            <tr>
+                                <td><a href="/how-to-buy-tickets">How to buy tickets?</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="/the-biggest-win">The biggest win ever</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">About US Lottery</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">About LotteryWorld.us</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-xs-3">
+                        <h4>QUICK LINKS</h4>
+                        <table class="aboutTable">
+                            <tr>
+                                <td><a href="/faqs">FAQs</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Legal</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Privacy Policy</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Teams &amp; Conditions</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="col-xs-6">
+                        <h4>YOUR FEEDBACK IS VALUEABLE TO US</h4>
+                        <div id="contactForm">
+                            <form class=" form-horizontal ">
+                                <div class="form-group">
+                                    <div class="col-xs-12">
+                                        <div class="content row">
+                                            <div class="col-xs-6" style="padding-right: 5px;">
+                                                <input type="text" class="form-control" id="contactName" name="contactName" placeholder="Name *" />
+                                            </div>
+                                            <div class="col-xs-6" style="">
+                                                <input type="text" class="form-control" id="contactEmail" name="contactEmail" placeholder="Email *" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group" style="margin-bottom: 15px">
+                                    <div class="col-xs-12">
+                                        <textarea class="form-control" rows="5" placeholder="Comment..."></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-xs-12 text-right">
+                                        <button class="btn btn submitContactButton" type="submit">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end payment -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-3">
+                    <div class="company">&copy; 2016 LotteryWorld.us, Inc.</div>
+                </div>
+                <div class="col-xs-9">
+                    <div class="socials">
+                        <div id="followUs">
+                            <span>Follow us:</span>
+                        </div>
+                        <div id="facebook-icon" onclick="javascript:location.href='https://facebook.com'">
+                        </div>
+                        <div id="twitter-icon" onclick="javascript:location.href='https://twitter.com'">
+                        </div>
+                        <div id="google-icon" onclick="javascript:location.href='https://plus.google.com'">
+                        </div>
+                        <div id="youtube-icon" onclick="javascript:location.href='https://youtube.com'">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

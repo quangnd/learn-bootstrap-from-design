@@ -1,0 +1,257 @@
+#chooseTicketBanner .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 1170px;
+    height: 148px;
+}
+
+
+#chooseTicketBanner .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+#chooseTicketBanner {
+    background: url(images/bg06.png) no-repeat center;
+    color: #fff;
+}
+
+.col1 {
+    margin-left: 20px;
+    margin-top: 38px;
+}
+.col2 {
+    text-align: right;
+    padding-right: 145px;
+    margin-top: 42px;
+}
+.col3 {
+    margin-top: 42px;
+    padding-right: 25px;
+    text-align: right;
+}
+
+.timeBold {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Impact;
+}
+
+.powerBallImage {
+   float: left;
+}
+
+.powerBallText {
+    padding-left: 100px;
+    padding-top: 4px;
+}
+
+.moneyText {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact;
+    color: #fff;
+}
+
+/*Three steps*/
+#threeStepPayments .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 1170px;
+    height: 530px;
+    background-color: #fff;
+}
+
+
+#threeStepPayments .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#orderSummary {
+    background-color: red;
+}
+/* Begin breadcumbs*/
+#breadcumbs {
+    padding-top:3px;
+}
+.breadcrumb {
+    padding: 0px;
+    margin-bottom: 0;
+	background: #fff;
+	list-style: none; 
+	overflow: hidden;
+    border-radius: 0;
+}
+.breadcrumb>li+li:before {
+	padding: 0;
+}
+.breadcrumb li { 
+	float: left; 
+}
+.breadcrumb li.active a {
+	background: brown;                   /* fallback color */
+	background: #ff9308 ; 
+}
+.breadcrumb li.completed a {
+	background: brown;                   /* fallback color */
+	background: #099bd9;
+}
+.breadcrumb li.active a:after {
+	border-left: 30px solid #ff9308 ;
+}
+.breadcrumb li.completed a:after {
+	border-left: 30px solid #099bd9;
+} 
+
+.breadcrumb li a {
+	color: white;
+    text-decoration: none;
+    padding: 12px 15px 12px 70px;
+    position: relative;
+    display: block;
+    float: left;
+    font-size: 14px;
+}
+.breadcrumb li a:after { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 30px solid hsla(0, 0%, 83%, 1);
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	left: 100%;
+	z-index: 2; 
+}	
+.breadcrumb li a:before { 
+	content: " "; 
+	display: block; 
+	width: 0; 
+	height: 0;
+	border-top: 50px solid transparent;           /* Go big on the size, and let overflow hide */
+	border-bottom: 50px solid transparent;
+	border-left: 33px solid white;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px; 
+	margin-left: 1px;
+	left: 100%;
+	z-index: 1; 
+}	
+.breadcrumb li:first-child a {
+	padding-left: 43px;
+}
+.breadcrumb li a:hover { background: #ff9308  ; }
+.breadcrumb li a:hover:after { border-left-color: #ff9308   !important; }
+/* End breadcumb*/
+
+#mainChooseTicket {
+    margin-top:62px;
+}
+
+.handGuide {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #eaf5f9 
+}
+.handPointUp {
+    
+    margin-right: 15px;
+    float: left;
+}
+.handPointUpText {
+    
+}
+
+.guideButtons {
+    text-align: right;
+    margin-top: 80px;
+}
+
+.hrLine {
+    margin-top: 62px;
+    margin-bottom: 0;
+    border: 0;
+    border-top: 7px solid #099bd9;
+}
+
+/*Know About*/
+#knowAbout {
+    margin-top:6px;
+}
+#knowAbout .container {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    width: 1170px;
+    background-color: #fff;
+}
+
+
+#knowAbout .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.headlineIntro {
+    margin-top: 59px;
+    margin-bottom: 59px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #099bd9;
+    text-align: center;
+}
+
+.imgCol {
+    float: left;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.headText {
+     font-size: 16px;
+    font-weight: bold;
+    color: #099bd9;
+}
+
+.detailContent {
+    margin: 20px 0 0 0;
+    line-height: 21px;
+    margin-right: 20px;
+    overflow: auto;
+}
+
+#knowAbout ul {
+    margin-top: 20px;
+    padding-left: 20px;
+    line-height: 24px;
+    list-style-type: circle;
+    
+    overflow:auto;
+}
+
+.hrKnowAbout {
+    width: 200px;
+    margin-left: 220px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-top: 2px solid #099bd9;
+}
+ .hrKnowAboutRight {
+        width: 200px;
+    margin-right: 30px;
+    margin-top: 30px;
+margin-bottom: 30px;
+     border-top: 2px solid #099bd9;
+}
