@@ -21,6 +21,7 @@ body {
     margin: 0 auto;
 }
 
+
 /*override bootstrap attributes*/
 .form-control:focus {
   border-color: 1px solid #099bd9;
@@ -56,6 +57,17 @@ input[type="text"] {
     width: 1170px;
 }
 
+.logo {
+    background: url(images/logo.png) no-repeat;
+    height: 60px;
+    width: 190px;
+    margin-top: 18px;
+    margin-bottom: 22px; /*Auto get remain pixel (100 - logoHeight) */
+}
+
+
+
+
 .navbar {
     border: none;
     margin-bottom: 0;
@@ -69,13 +81,7 @@ input[type="text"] {
    margin-left: 21px;
 }
 
-.logo {
-    background: url(images/logo.png) no-repeat;
-    height: 60px;
-    width: 190px;
-    margin-top: 18px;
-    margin-bottom: 22px; /*Auto get remain pixel (100 - logoHeight) */
-}
+
 
 .navbar-nav {
     margin-left: 24px; /* Distance between Home menu item and logo */
@@ -89,9 +95,6 @@ li.menuItem {
     margin-right: 0 !important;
 }
 
-.navbar-collapse {
-    padding-right:0;
-}
 
 .navbar-default .navbar-nav > li > a {
     text-transform: uppercase;
@@ -126,6 +129,60 @@ navbar-default .navbar-nav > a {
     color: #333;
 }
 
+/*Add more for responsive */
+
+.navbar-toggle {
+    float: left;
+    padding: 9px 10px;
+    margin-top: 9px;
+    margin-right: 0;
+    margin-bottom: 9px;
+    background-color: #fff;
+    background-image: none;
+    border: 0; 
+    border-radius: 0; 
+    margin-left: 25px;
+}
+
+.navbar-toggle .icon-bar {
+    width: 16px;
+    border-radius: 0;
+}
+
+.navbar-collapse {
+    padding-right:0;
+}
+
+.collapse.in {
+    width: 60%;
+}
+
+
+@media (max-width: 400px) {
+  .navbar .container {
+      width: 320px;
+  }
+
+    .logo {
+        background: url(images/logo-mini.png) no-repeat;
+        height: 38px;
+        width: 115px;
+        margin-top: 11px;
+        margin-bottom: 8px; /*Auto get remain pixel (100 - logoHeight) */
+        margin-left: 51px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 62px;
+    }
+    .navbar-collapse {
+     width: 60%;
+      border: 1px solid #f0f0f0;
+    }
+
+}
 /*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     border-bottom: 5px solid #999;
     color: #333;
@@ -308,6 +365,13 @@ img.center {
     width: 1170px;
     height: 315px;
     
+}
+
+@media (max-width: 400px) {
+  .resultSection .container {
+      width: 320px;
+  }
+
 }
 
 .resultSection  .row {
