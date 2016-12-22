@@ -363,6 +363,10 @@ img.center {
     margin-left: 0 !important;
 }
 
+.lotteryJumpotronSmall {
+    background-image: url(images/bg01.png);
+    height: 452px;
+}
 
 /*Result section*/
 .resultSection .container {
