@@ -162,34 +162,7 @@ navbar-default .navbar-nav > a {
 }
 
 
-@media (max-width: 400px) {
-  /*.navbar .container {
-      width: 320px;
-  }*/
 
-    .logo {
-        background: url(images/logo-mini.png) no-repeat;
-        height: 38px;
-        width: 115px;
-        margin-top: 11px;
-        margin-bottom: 8px; /*Auto get remain pixel (100 - logoHeight) */
-        margin-left: 51px;
-    }
-    .navbar-brand {
-        padding: 0;
-    }
-    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: 62px;
-    }
-    .navbar-collapse {
-     width: 60%;
-      border: 1px solid #f0f0f0;
-    }
-    .navbar-header {
-        width: 320px;
-    }
-
-}
 /*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     border-bottom: 5px solid #999;
     color: #333;
@@ -236,6 +209,52 @@ navbar-default .navbar-nav > a {
 #cart:hover {
     background: url(images/cart-hover.png) no-repeat;
 }
+@media (max-width: 400px) {
+  /*.navbar .container {
+      width: 320px;
+  }*/
+
+    .logo {
+        background: url(images/logo-mini.png) no-repeat;
+        height: 38px;
+        width: 115px;
+        margin-top: 11px;
+        margin-bottom: 8px; /*Auto get remain pixel (100 - logoHeight) */
+        margin-left: 51px;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 62px;
+    }
+    .navbar-collapse {
+     width: 60%;
+      border: 1px solid #f0f0f0;
+    }
+    .navbar-header {
+        width: 320px;
+    }
+    .lastMenuItem {
+        border-bottom: 1px solid #f0f0f0;
+    }
+    #rightMenu {
+        float: none;
+    }
+    #rightMenu a {
+        display: block;     
+        text-align: left;
+    }
+    .loginStyle {
+        padding-left:28px;
+    }
+    .signUpStyle {
+        padding-top: 10px;
+    }
+
+}
+
+
 
 /*Jumpotron customize*/
 .lotteryJumpotron {
@@ -363,8 +382,16 @@ img.center {
     margin-left: 0 !important;
 }
 
+@media (min-width: 960px) {
+    .lotteryJumpotronSmall { 
+        display:none;
+    }
+}
 /*Add more for responsive */
 @media (max-width: 400px) {
+    #bannerCarousel {
+        display: none;
+    }
     .lotteryJumpotronSmall {
         background-image: url(images/bg01.png);
         text-align: center;
@@ -652,8 +679,9 @@ div.resultDate {
 
 /*Add more for responsive*/
 @media (max-width: 400px) {
+
   .resultSection h3 {
-      margin-top: 20px;
+      margin-top: 10px;
       margin-bottom: 20px;
   }
   .lotteryResultBoard {
@@ -661,22 +689,23 @@ div.resultDate {
   }
   div.powerBallStyle {
     padding-top: 10px;
-    height: 66px;
+    height: 70px;
     }
     div.calloteryStyle {
         padding-top: 10px;
-        height: 66px;
+        height: 70px;
     }
 
     div.megaStyle{
         padding-top: 10px;
-        height: 66px;
+        height: 70px;
     }
     div.resultDate {
         float:right;
         padding-left: 0;
         margin-top: 0;
         margin-right: 20px;
+        text-align: right;
     }
     .newsInfo {
          height: 260px;
@@ -692,6 +721,20 @@ div.resultDate {
     }
     .circleList {
         padding-left: 15px;
+        padding-right: 15px;
+    }
+    .badgeList {
+        padding-left: 0;
+        display: -webkit-box;
+        clear:both;
+        margin-top: 5px;
+        
+    }
+    span.badgeNumber {
+        font-size: 20px;
+        top: -3px;
+        height: 32px;
+        width: 32px;
     }
 }
 
