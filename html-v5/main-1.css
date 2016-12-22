@@ -383,12 +383,6 @@ img.center {
     height: 315px;
 }
 }
-@media (max-width: 400px) {
-  .resultSection .container {
-     
-  }
-
-}
 
 .resultSection  .row {
     margin-left: 0;
@@ -404,6 +398,7 @@ img.center {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 
 .resultSection h4 {
     font-size: 13px;
@@ -612,6 +607,53 @@ div.resultDate {
     background-color: #099bd9;
 }
 
+/*Add more for responsive*/
+@media (max-width: 400px) {
+  .resultSection h3 {
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
+  .lotteryResultBoard {
+      height: 260px;
+  }
+  div.powerBallStyle {
+    padding-top: 10px;
+    height: 66px;
+    }
+    div.calloteryStyle {
+        padding-top: 10px;
+        height: 66px;
+    }
+
+    div.megaStyle{
+        padding-top: 10px;
+        height: 66px;
+    }
+    div.resultDate {
+        float:right;
+        padding-left: 0;
+        margin-top: 0;
+        margin-right: 20px;
+    }
+    .newsInfo {
+         height: 260px;
+    }
+    .carousel-indicators {
+         top: 98%;
+    }
+    .checkInfo {
+        height: 350px;
+    }
+    .numberSquare { 
+        width: 38px;
+    }
+    .circleList {
+        padding-left: 15px;
+    }
+}
+
+
+/*======================*/
 /*Adv 2*/
 .adv2 .container {
     margin-left: 0;
@@ -624,7 +666,7 @@ div.resultDate {
 @media (min-width: 960px) {
 .adv2 .container{
      width: 1170px;
-    height: 315px;
+
 }
 }
 
@@ -641,14 +683,7 @@ div.resultDate {
     display: block;
 }
 
-@media (max-width: 400px) {
-   .adv2 .advLeftImage {
-       display: none;
-   } 
-   .clockSym {
-       display:none;
-   }
-}
+
 .adv2 .advTextRight{
     padding: 20px 19px 0 110px;
     color: #fff;
@@ -685,12 +720,30 @@ div.resultDate {
     margin-bottom: 0;
 }
 
+/*Add more for responsive*/
+
 @media (max-width: 400px) {
-   .adv2 .advLeftImage {
-       display: none;
-   } 
+   .adv2 {
+       
+   }
+  .adv2 .advTextRight {
+      padding: 25px 18px 27px 18px;
+  }
    .clockSym {
-       display:none;
+       margin-top: 27px;
+       float: none;
+       text-align:center;
+       margin-right: 0;
+       margin-left:0;
+   }
+   .advTextRight h3 { 
+       text-align:center;
+   }
+   .dollarSym { 
+        margin-top: 27px;
+       margin-left: 0px;
+       float: none;
+       text-align: center;
    }
 }
 
@@ -707,20 +760,20 @@ div.resultDate {
   
 }
 
-@media (min-width: 960px) {
-.adv3 .container{
-     width: 1170px;
-
-}
-}
 
 .adv3 .row {
     margin-left: 0;
     margin-right: 0;
 }
 
-.adv3 .col-xs-5 {
-    width: 140px !important;
+
+@media (min-width: 960px) {
+    .adv3 .container{
+        width: 1170px;
+    }
+    .adv3 .col-xs-5 {
+        width: 140px !important;
+    }
 }
 .adv3Detail {
     margin-top:65px;
@@ -735,11 +788,7 @@ div.resultDate {
 .adv3Detail .lottery-advCol3{
     margin-left: 20px;
 }
-@media (max-width: 400px) {
-   .adv3Detail .lottery-advCol2,.adv3Detail .lottery-advCol3,.adv3Detail .lottery-advCol1 {
-       display: none;
-   } 
-}
+
 
 .adv3Detail .adv3Text {
     padding-left: 20px;
@@ -764,6 +813,43 @@ div.resultDate {
     text-transform: uppercase;
 }
 
+@media (max-width: 400px) {
+  .adv3Detail {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    } 
+
+  .adv3Detail .lottery-advCol1 img,
+  .adv3Detail .lottery-advCol2 img,
+  .adv3Detail .lottery-advCol3 img {
+      width: 70px;
+      height: 60px;
+  }
+
+ 
+  .adv3Detail .lottery-advCol2{
+    margin-left: 0;
+    text-align:center;
+  }
+
+    .adv3Detail .lottery-advCol3{
+        text-align:center;
+    }
+
+    .adv3Detail .adv3Text {
+        padding-left: 0;
+        line-height: 21px;
+    }
+
+    .adv3Text p {
+        margin-top: 19px;
+        width: 172px;
+    }
+    .adv3 hr { 
+        margin-top: 24px;
+    }
+}
 /* About Information*/
 .aboutInfo .container {
     margin-left: 0;
@@ -773,10 +859,10 @@ div.resultDate {
 }
 
 @media (min-width: 960px) {
-.aboutInfo .container{
-     width: 1170px;
+    .aboutInfo .container{
+        width: 1170px;
 
-}
+    }
 }
 
 .aboutInfo .row {
@@ -854,6 +940,7 @@ div.resultDate {
     margin-left: 0;
 }
 
+
 .submitContactButton{
     min-height: 42px;   
     font-weight: bold;
@@ -875,6 +962,28 @@ ol, ul {
     list-style: none;
 }
 
+/*Add more for responsive*/
+#contactForm .paddingRight {
+    padding-right: 5px;
+}
+@media (max-width: 400px) {
+    .aboutInfo {
+        padding-top: 30px;
+    }
+    .aboutDetail {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .quickLinks { /*new class*/
+        padding-top: 30px;
+    }
+    #contactForm .paddingRight {
+        padding-right: 0;
+    }
+    #contactForm #contactEmail {
+        margin-top: 10px;
+    }
+}
 /* FOOTER */
 footer {
     position: absolute;
@@ -893,10 +1002,10 @@ footer .container {
 }
 
 @media (min-width: 960px) {
-footer .container{
-     width: 1170px;
+    footer .container{
+        width: 1170px;
 
-}
+    }
 }
 
 footer .row {
@@ -970,5 +1079,22 @@ footer .row {
 } 
 #youtube-icon:hover{
      background: url('images/social-icons/youtube-symbol-hover.png');
+}
+
+@media (max-width: 400px) {
+    footer {
+        position: inherit;
+        margin-top: 0;
+        height: 150px;
+    }
+    .company {
+        margin-top: 20px;
+    }
+    .socials {
+        float: left;
+        width: 270px;
+        margin-left: 30px;
+        margin-top: 40px;
+    }
 }
 
