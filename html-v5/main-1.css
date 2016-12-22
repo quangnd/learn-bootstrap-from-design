@@ -914,12 +914,18 @@ div.resultDate {
   }
 
  
+    .adv3Detail .lottery-advCol1{
+        text-align:center;
+          margin-left: 0;
+    }
+
   .adv3Detail .lottery-advCol2{
     margin-left: 0;
     text-align:center;
   }
 
     .adv3Detail .lottery-advCol3{
+        margin-left: 0;
         text-align:center;
     }
 
